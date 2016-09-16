@@ -46,6 +46,15 @@
 
 <!--==============================Slider   Ends==============================-->
 
+<!--New SLider-->
+<div id="slider2">
+			<ul>				
+				<li><a href="#"><img src="images/slide1.png" alt="" /></a></li>
+				<li><a href="#"><img src="images/slide2.png" alt="" /></a></li>
+				<li><a href="#"><img src="images/slide3.png" alt="" /></a></li>
+			</ul>
+		</div>
+
 
 <!--==============================Footer Starts==============================-->
 
@@ -64,6 +73,17 @@
 	<script type="text/javascript">
 		$(document).ready(function(){	
 			$("#slider").easySlider({
+				auto: true, 
+				continuous: true
+			});
+		});	
+	</script>
+
+	<script type="text/javascript" src="js/jquery.js"></script>	
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider2").easySlider({
 				auto: true, 
 				continuous: true
 			});

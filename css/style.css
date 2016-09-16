@@ -97,6 +97,16 @@ ul li{
     position: relative;
 }
 
+#slider2{
+	border:2px solid #000000;
+	border-radius:10px;
+	height:300px !important;
+	width:575px;
+	margin:30px auto 0px;
+   	left: 18px;
+    position: relative;
+}
+
 .footer{
 
 	text-align:center;
